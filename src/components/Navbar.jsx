@@ -21,8 +21,8 @@ const Navbar = () => {
           {/* <----------This div/svg is for small screen display---------->*/}
         </div>
       </nav>
-      <div class="hidden sticky right-0 mt-20" id="menu">
-        <ul className="sm:hidden bg-[#0f1624]  text-lg text-white container w-max ml-auto flex flex-col items-center p-6 rounded-b-lg rounded-br-none">
+      <div class="hidden relative top-10 right-0 mt-20" id="menu">
+        <ul className="sm:hidden bg-[#0f1624] text-lg text-white container w-max ml-auto flex flex-col items-center p-6 rounded-b-lg rounded-br-none">
           <li>
             <a href="#About_Section" className="nav-anchor-text">
               About
